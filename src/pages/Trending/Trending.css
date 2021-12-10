@@ -1,0 +1,21 @@
+.trending{
+display:flex;
+/* flex-direction:column; */
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.heading{
+    text-align:center;
+    font-family: 'Estonia', cursive;
+    font-size:3vw;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    padding-top: 3rem;;
+}
+@media (max-width:1000px)
+{
+    .heading{
+        font-size:6.5vw;
+    }
+}
